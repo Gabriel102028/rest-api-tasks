@@ -18,6 +18,6 @@ const taskSchema = new Schema({
 },{
     versionKey: false,
     timestamps: true
-})
+});
 
 export default model('Task', taskSchema)
